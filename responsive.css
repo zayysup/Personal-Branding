@@ -1,0 +1,47 @@
+@media(min-width:671px) and (max-width:1024px){
+   .biodata{
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .flex_box{
+        flex-wrap: wrap;
+    }
+    .flex_box li{
+        width: 50%;
+    } 
+    .flex_box p{
+        text-align: center;
+    }
+    .experiences h3{
+        background-color: rgb(176, 254, 228);
+    }
+    .container{
+        width: 70%;
+    }
+
+@media(min-width:0px) and (max-width:670px){
+    .bg_biodata{
+        width: 100%;
+        border-style: none
+    }
+    .flex_box{
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0;
+        text-align: center;
+    }
+    .flex_box li{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .skills{
+        width: 100%;
+        border-style: none;
+    }
+    .container{
+        width: 75%;
+    }
+
+}

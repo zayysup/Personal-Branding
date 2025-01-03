@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif, fantasy;
+    background: #957c60;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: #433a29;
+}
+.wrapper_profile{
+    background-color: #c9af95;
+    background-image: url("netherlands.jpg");
+    background-size: cover;
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+    position: relative;
+
+}
+.foto img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 10px solid rgba(201, 175, 149, 0.5);
+    border-radius: 50%;
+}
+.foto h1{
+    padding: 50px 50px;
+    float: left;
+}
+.biodata{
+    float: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(201, 175, 149, 0.5);
+    margin-top: 20px;
+}
+.biodata h3{
+    margin-top: 1px;
+    margin-block-end: 2px;
+}
+.biodata p{
+    margin-block-start: 2px;
+}
+.biodata a{
+    color: #433a29;
+}
+.flex_box{
+    display: flex;
+    margin-right: 5px;
+}
+.flex_box li{
+    flex: auto;
+    list-style: none;
+    padding: 30px;
+}
+.flex_box img{
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    border-radius: 5%;
+    background-color: #abac97;
+}
+.flex_box h4{
+    text-align: center;
+}
+.flex_box a{
+    text-align: center;
+    padding: 15px;
+    color: #433a29;
+}
+.hobi{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    color: #433a29;
+}
+.hobi h3{
+    text-align: center;
+    background-color: #abac97;
+    padding: 20px;
+    margin: 0;
+    color: #433a29;
+}
+/* .org{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    color: #433a29;
+}
+.org h3{
+    text-align: center;
+    background-color: #abac97;
+    padding: 20px;
+    margin: 0;
+} */
+.galeri{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    color: #433a29;
+}
+.galeri h3{
+    text-align: center;
+    background-color: #abac97;
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    margin: 20px auto;
+    width: 60%;
+}
+.educations{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+    color: #433a29;
+}
+.educations h3{
+    text-align: center;
+    background-color: #abac97;
+    padding:  20px;
+    margin: 0;
+}
+/* .org{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    color: #433a29;
+}
+.org h3{
+    text-align: center;
+    background-color: #abac97;
+    padding: 20px;
+    margin: 0;
+} */
+.skills{
+    width: 100%;
+    background-color: #c9af95;
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+    color: #433a29;
+}
+.skills h3{
+    text-align: center;
+    background-color: #abac97;
+    padding:  20px;
+    margin: 0;
+}
+.left{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: solid none solid solid;
+    padding: 10px;
+    text-align: left;
+    color: #433a29;
+}
+.right{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: none solid solid none;
+    padding: 10px;
+    text-align: right;
+}
+.right h4{
+    float: right;
+    text-align: right;
+    margin: 10px;
+    width: 60%;
+}
+.right p{
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+.left h4{
+    float: left;
+    text-align: left;
+    margin: 10px;
+    width: 60%;
+}
+.left p{
+    float: left;
+    text-align: left;
+    margin: 0;
+}
+.skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: white;
+}
+.persen{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background: #c9af95;
+    display: block;
+    text-align: right;
+    color: white;
+}
+.persen div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #433a29;
+    text-decoration-color: white;
+}
